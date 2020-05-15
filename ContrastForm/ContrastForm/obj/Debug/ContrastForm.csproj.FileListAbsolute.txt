@@ -1,0 +1,9 @@
+C:\Users\vovak\source\repos\ContrastForm\ContrastForm\bin\Debug\ContrastForm.exe
+C:\Users\vovak\source\repos\ContrastForm\ContrastForm\bin\Debug\ContrastForm.pdb
+C:\Users\vovak\source\repos\ContrastForm\ContrastForm\obj\Debug\ContrastForm.csprojAssemblyReference.cache
+C:\Users\vovak\source\repos\ContrastForm\ContrastForm\obj\Debug\ContrastForm.Form1.resources
+C:\Users\vovak\source\repos\ContrastForm\ContrastForm\obj\Debug\ContrastForm.Properties.Resources.resources
+C:\Users\vovak\source\repos\ContrastForm\ContrastForm\obj\Debug\ContrastForm.csproj.GenerateResource.cache
+C:\Users\vovak\source\repos\ContrastForm\ContrastForm\obj\Debug\ContrastForm.exe
+C:\Users\vovak\source\repos\ContrastForm\ContrastForm\obj\Debug\ContrastForm.pdb
+C:\Users\vovak\source\repos\ContrastForm\ContrastForm\obj\Debug\ContrastForm.csproj.CoreCompileInputs.cache
