@@ -23,7 +23,10 @@ namespace ContrastForm
         public static string full_name_of_image = "\0";
         public static UInt32[,] pixel;
         int contrastProsent = default;
+        bool hb = false;
+
         
+
 
         private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -128,10 +131,33 @@ namespace ContrastForm
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
             button2.Enabled = false;
-            MedianFilter1.MedianFiltering(image);
-            FromBitmapToScreen(image);
+            if (checkBox1.Checked)
+            {
+
+                FromBitmapToScreen(MedianFilter1.MedianFilter(image, int.Parse(textBox2.Text), true));
+            }
+            else
+            {
+                FromBitmapToScreen(MedianFilter1.MedianFilter(image, int.Parse(textBox2.Text), false));
+            }
+
             button2.Enabled = true;
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
         }
     }
 }
